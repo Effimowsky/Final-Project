@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("/Fonts/Poppins-ExtraBold.eot");
+  src: url("/Fonts/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"),
+    url("/Fonts/Poppins-ExtraBold.woff2") format("woff2"),
+    url("/Fonts/Poppins-ExtraBold.woff") format("woff"),
+    url("/Fonts/Poppins-ExtraBold.ttf") format("truetype"),
+    url("/Fonts/Poppins-ExtraBold.svg#Poppins-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/Fonts/Montserrat-Bold.eot");
+  src: url("/Fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/Fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("/Fonts/Montserrat-Bold.woff") format("woff"),
+    url("/Fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("/Fonts/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}

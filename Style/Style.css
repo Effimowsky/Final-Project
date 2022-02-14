@@ -6,6 +6,40 @@
   list-style: none;
   text-decoration: none;
 }
+.container {
+  max-width: 100%;
+  width: 1920px;
+  margin: 0 auto;
+}
+header {
+  background-color: #dddddd;
+}
 .d-flex {
   display: flex;
+}
+.logo-1 {
+  font-size: 40px;
+  font-family: "Poppins";
+}
+.logo-text {
+  font-size: 13px;
+  font-family: "Montserrat";
+  color: #b3b3b3;
+}
+.dot {
+  color: #0081ff;
+}
+.logo-about {
+  justify-content: space-between;
+}
+.about-text-1 {
+  position: absolute;
+  color: #1c1c1c;
+  font-family: "Poppins";
+  font-size: 158.3px;
+}
+.about-text-2 {
+  position: relative;
+  font-family: "Poppins";
+  font-size: 43.17px;
 }
