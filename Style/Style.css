@@ -20,6 +20,7 @@ header {
 .logo-1 {
   font-size: 40px;
   font-family: "Poppins";
+  margin-top: 48px;
 }
 .logo-text {
   font-size: 13px;
@@ -33,13 +34,34 @@ header {
   justify-content: space-between;
 }
 .about-text-1 {
-  position: absolute;
   color: #1c1c1c;
   font-family: "Poppins";
   font-size: 158.3px;
 }
 .about-text-2 {
-  position: relative;
+  position: absolute;
   font-family: "Poppins";
-  font-size: 43.17px;
+  top: 5.5rem;
+  font-size: 2em;
+  color: #373737;
+}
+.about-me {
+  position: relative;
+}
+.soc-media-icons {
+  align-items: center;
+  margin-top: 59.43px;
+  gap: 20px;
+}
+.text-1 {
+  font-size: 49.7px;
+}
+.text-2 {
+  font-size: 71px;
+}
+.text-3 {
+  font-size: 23.29px;
+}
+.info {
+  margin-top: 273.27px;
 }
