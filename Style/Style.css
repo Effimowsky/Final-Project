@@ -7,8 +7,8 @@
   text-decoration: none;
 }
 .container {
-  max-width: 100%;
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   margin: 0 auto;
 }
 header {
@@ -21,17 +21,20 @@ header {
   font-size: 40px;
   font-family: "Poppins";
   margin-top: 48px;
+  margin-left: 52px;
 }
 .logo-text {
   font-size: 13px;
   font-family: "Montserrat";
   color: #b3b3b3;
+  margin-left: 52px;
 }
 .dot {
   color: #0081ff;
 }
 .logo-about {
   justify-content: space-between;
+  margin-right: 81.68px;
 }
 .about-text-1 {
   color: #1c1c1c;
