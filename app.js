@@ -1,7 +1,7 @@
 let slide = [
-  "images/slider-image1.png",
-  "images/slider-image2.png",
-  "images/slider-image3.png",
+  "Images/slider-image1.png",
+  "Images/slider-image2.png",
+  "Images/slider-image3.png",
 ];
 let index = 0;
 function changeImg() {
