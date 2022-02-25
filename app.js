@@ -1,3 +1,4 @@
+// header slider
 let slide = [
   "Images/slider-image1.png",
   "Images/slider-image2.png",
