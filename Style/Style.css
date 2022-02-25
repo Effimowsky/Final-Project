@@ -95,6 +95,7 @@ header {
   height: 6px;
   background-color: #e93656;
   opacity: 100%;
+  margin-bottom: 47px;
 }
 .clients-statis p {
   font-size: 24px;
@@ -106,4 +107,67 @@ header {
   justify-content: flex-end;
   padding-top: 181.46px;
   padding-right: 97px;
+}
+.user-info h1 {
+  font-size: 40px;
+}
+.user-info h2 {
+  font-size: 14px;
+  color: #daae19;
+}
+.about-me-text {
+  font-size: 15px;
+  width: 334px;
+  height: 149px;
+}
+.hire-me {
+  font-size: 15px;
+  background-color: #e93656;
+  width: 152px;
+  height: 50px;
+  color: #ffffff;
+  padding: 13px 46.33px 17px 53.67px;
+  cursor: pointer;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.my-photo img {
+  width: 430px;
+  height: 603px;
+  object-fit: cover;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.red-line-1 {
+  background-color: #e93656;
+  width: 256px;
+  height: 9px;
+}
+.percentage span {
+  color: #e93656;
+}
+.red-line-2 {
+  background-color: #e93656;
+  width: 191px;
+  height: 8px;
+}
+.red-line-3 {
+  background-color: #e93656;
+  width: 150px;
+  height: 9px;
+}
+.red-line-4 {
+  background-color: #e93656;
+  width: 76px;
+  height: 10px;
+}
+.percentage p {
+  transition: all 0.3s ease;
 }
