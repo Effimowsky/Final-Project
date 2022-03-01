@@ -128,43 +128,104 @@ header {
   color: #ffffff;
   padding: 13px 46.33px 17px 53.67px;
   cursor: pointer;
+  font-family: "Glacial Indifference";
 }
 .about-me {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-end;
+  margin-top: 218px;
+}
+.about-me h1 {
+  margin-bottom: 6px;
+  font-family: "Glacial Indifference";
+}
+.about-me h2 {
+  margin-bottom: 33px;
+  font-family: "Muli";
+}
+.about-me p {
+  margin-bottom: 60px;
+  font-family: "Muli";
 }
 .my-photo img {
   width: 430px;
   height: 603px;
   object-fit: cover;
+  margin-top: 135px;
 }
 .user-info {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.red-line-1 {
-  background-color: #e93656;
-  width: 256px;
-  height: 9px;
+.skills-bar {
+  margin-left: 50px;
+  width: 310px;
+  padding: 5px;
+  font-family: "Glacial Indifference";
+  margin-top: 194px;
 }
-.percentage span {
+.skills-bar p {
+  margin-top: 20px;
+  font-family: "Glacial Indifference";
+}
+.skills-bar p span {
   color: #e93656;
 }
-.red-line-2 {
-  background-color: #e93656;
-  width: 191px;
-  height: 8px;
-}
-.red-line-3 {
-  background-color: #e93656;
-  width: 150px;
-  height: 9px;
-}
-.red-line-4 {
-  background-color: #e93656;
-  width: 76px;
+.progress {
+  width: 310px;
   height: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.progress .progress-bar {
+  width: 0%;
+  opacity: 0;
+  height: 100%;
+  background-color: #e93656;
+  border-radius: 10px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.progress-bar span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.slidericons {
+  display: flex;
+}
+.slidericons li {
+  max-width: 30px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.slidericons ul {
+  align-items: center;
+}
+.soc-icons {
+  margin-top: 93.24px;
+}
+.soc-icons a {
+  color: #6b6b6b;
+}
+.soc-icons li {
+  height: 40px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.soc-icons a:hover {
+  color: white;
+  transition: 0.5s;
+}
+.soc-icons li:hover {
+  background-color: #15263e;
+  transition: 0.5s;
 }

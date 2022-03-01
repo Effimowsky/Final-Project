@@ -18,3 +18,31 @@ function changeImg() {
   setTimeout("changeImg()", 5000);
 }
 window.onload = changeImg;
+
+// Progresssbar
+const skillSection = document.getElementById("skills-section");
+const progressBars = document.querySelectorAll(".progress-bar");
+
+function showProgress() {
+  progressBars.forEach(progressBar => {
+    const value = progressBar.dataset.progress;
+    progressBar.style.opacity = 1;
+    progressBar.style.width = `${value}%`;
+  });
+}
+function hideProgress() {
+  progressBars.forEach(progressBar => {
+    const value = progressBar.dataset.progress;
+    progressBar.style.opacity = 0;
+    progressBar.style.width = 0;
+  });
+}
+window.addEventListener("scroll", () => {
+  const sectionPos = skillSection.getBoundingClientRect();
+  const screenPos = window.innerHeight / 1.8;
+  if (sectionPos < screenPos) {
+    showProgress();
+  } else {
+    hideProgress();
+  }
+});

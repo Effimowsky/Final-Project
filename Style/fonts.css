@@ -36,3 +36,40 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Glacial Indifference";
+  src: url("../Fonts/GlacialIndifference-Bold.eot");
+  src: url("../Fonts/GlacialIndifference-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../Fonts/GlacialIndifference-Bold.woff2") format("woff2"),
+    url("../Fonts/GlacialIndifference-Bold.woff") format("woff"),
+    url("../Fonts/GlacialIndifference-Bold.ttf") format("truetype"),
+    url("../Fonts/GlacialIndifference-Bold.svg#GlacialIndifference-Bold")
+      format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../Fonts/Muli.eot");
+  src: url("../Fonts/Muli.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/Muli.woff2") format("woff2"), url("Muli.woff") format("woff"),
+    url("../Fonts/Muli.ttf") format("truetype"),
+    url("Muli.svg#Muli") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("../Fonts/Muli-Regular.eot");
+  src: url("../Fonts/Muli-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../Fonts/Muli-Regular.woff2") format("woff2"),
+    url("../Fonts/Muli-Regular.woff") format("woff"),
+    url("../Fonts/Muli-Regular.ttf") format("truetype"),
+    url("../Fonts/Muli-Regular.svg#Muli-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
