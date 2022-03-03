@@ -229,3 +229,62 @@ header {
   background-color: #15263e;
   transition: 0.5s;
 }
+.my-info {
+  background-color: #131a36;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+.my-info-2 {
+  display: flex;
+  align-items: center;
+  padding: 60px 41px;
+}
+.phone-icon:hover {
+  background-color: #e93656;
+  border-radius: 100%;
+  transition-duration: 1s;
+  transition-delay: 0.5ms;
+  cursor: pointer;
+}
+.my-phone {
+  margin-left: 30px;
+}
+.my-phone h3 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.my-phone h4 {
+  color: #ffffff;
+  font-size: 14px;
+}
+.adress-icon {
+  cursor: pointer;
+}
+.my-adress {
+  margin-left: 30px;
+}
+.my-adress h3 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.my-adress h4 {
+  color: #ffffff;
+  font-size: 14px;
+}
+.my-email {
+  margin-left: 30px;
+}
+.my-email h3 {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.my-email h4 {
+  color: #ffffff;
+  font-size: 14px;
+}
