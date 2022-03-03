@@ -229,6 +229,8 @@ header {
   background-color: #15263e;
   transition: 0.5s;
 }
+
+/* my information */
 .my-info {
   background-color: #131a36;
   height: 210px;
@@ -256,10 +258,12 @@ header {
   color: #ffffff;
   font-size: 25px;
   margin-bottom: 15px;
+  font-family: "Glacial Indifference";
 }
 .my-phone h4 {
   color: #ffffff;
   font-size: 14px;
+  font-family: "Muli";
 }
 .adress-icon {
   cursor: pointer;
@@ -271,10 +275,12 @@ header {
   color: #ffffff;
   font-size: 25px;
   margin-bottom: 15px;
+  font-family: "Glacial Indifference";
 }
 .my-adress h4 {
   color: #ffffff;
   font-size: 14px;
+  font-family: "Muli";
 }
 .my-email {
   margin-left: 30px;
@@ -283,8 +289,79 @@ header {
   color: #ffffff;
   font-size: 25px;
   margin-bottom: 15px;
+  font-family: "Glacial Indifference";
 }
 .my-email h4 {
   color: #ffffff;
+  font-size: 14px;
+  font-family: "Muli";
+}
+
+/* services */
+.section-2 {
+  margin-top: 203px;
+}
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-wrapper {
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.service-item {
+  margin-top: 203px;
+  border: 1px solid lightgray;
+  display: flex;
+  width: 290px;
+  height: 360px;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  margin-bottom: -192px;
+  margin-left: 10px;
+}
+.services-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services-1 img {
+  margin-bottom: 15px;
+}
+.service-hover {
+  display: none;
+}
+.service-hover h3 {
+  margin-bottom: 15px;
+}
+.service-item:hover {
+  background-color: #131a36;
+}
+.service-item:hover .services-1 {
+  display: none;
+}
+.service-item:hover .service-hover {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  line-height: 1.7rem;
+}
+.services-1 p {
+  font-size: 20px;
+  font-family: "Glacial Indifference";
+}
+.service-hover h3 {
+  font-family: "Glacial Indifference";
+  font-size: 20px;
+}
+.service-hover p {
+  font-family: "Muli";
   font-size: 14px;
 }
