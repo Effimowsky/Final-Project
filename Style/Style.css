@@ -11,6 +11,8 @@
   width: 100%;
   margin: 0 auto;
 }
+
+/* Header content */
 header {
   background-color: #dddddd;
 }
@@ -230,7 +232,7 @@ header {
   transition: 0.5s;
 }
 
-/* my information */
+/* My information */
 .my-info {
   background-color: #131a36;
   height: 210px;
@@ -297,7 +299,7 @@ header {
   font-family: "Muli";
 }
 
-/* services */
+/* Services */
 .section-2 {
   margin-top: 203px;
 }
@@ -364,4 +366,80 @@ header {
 .service-hover p {
   font-family: "Muli";
   font-size: 14px;
+}
+
+/* Recomendations */
+.recomendations {
+  background-image: url("../Images/clip.jpg");
+  background-color: #15263e;
+  max-width: 2000px;
+  width: 100%;
+  height: 570px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+}
+.recomendation-content {
+  align-items: center;
+  color: #fff;
+  margin-right: 80px;
+  flex-wrap: wrap;
+}
+.recomendation-text {
+  display: flex;
+  width: 497px;
+  height: 78px;
+  font-size: 15px;
+  padding-right: 80px;
+  font-family: Roboto;
+}
+.recomendation-img {
+  vertical-align: middle;
+  display: flex;
+  width: 140px;
+  height: 140px;
+  padding-right: 60px;
+  cursor: pointer;
+  margin-right: 65px;
+}
+.borderimg {
+  border: 2px dashed #ffffff;
+  border-radius: 100%;
+}
+.recomendation-img :hover {
+  border: 2px solid #e93656;
+}
+.recomendation-img img:hover {
+  width: 140px;
+}
+.recomendation-btn {
+  width: 13px;
+  height: 13px;
+  color: #ffffff00;
+  border: 2px solid #ffffff;
+  padding-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.rec-btn {
+  display: flex;
+  flex-direction: column;
+}
+.recomendation-btn:hover {
+  border: 2px solid #e93656;
+}
+.person-info p {
+  color: #e93656;
+  margin-right: 100px;
+  padding-top: 20px;
+  font-family: Roboto;
+}
+.person-info h2 {
+  color: #ffffff;
+  padding-top: 20px;
+  font-family: Glacial Indifference;
 }
