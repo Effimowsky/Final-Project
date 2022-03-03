@@ -77,3 +77,28 @@ window.addEventListener("scroll", () => {
     dots[slideIndex - 1].className += " active";
   }
 }
+
+// Latest Project
+const generateFilters = () => {
+  const filterItems = [...document.querySelectorAll(".latest-projects-nav li")];
+  const projectItems = [...document.querySelectorAll(".project-item")];
+
+  filterItems.forEach(filterItem => {
+    filterItem.addEventListener("click", () => {
+      const filterItemId = filterItem.id;
+      if (filterItemId === "all") {
+        projectItems.forEach(projItem => {
+          projItem.classList.remove("hidden2");
+        });
+      } else {
+        projectItems.forEach(projItem => {
+          projItem.classList.add("hidden2");
+          if (projItem.dataset.filter === filterItemId) {
+            projItem.classList.remove("hidden2");
+          }
+        });
+      }
+    });
+  });
+};
+generateFilters();
