@@ -528,3 +528,124 @@ header {
   background-color: #15263e;
   color: #ffffff;
 }
+
+/* Articles */
+.articles {
+  max-width: 2000px;
+  width: 100%;
+  margin: auto;
+  padding: auto;
+  margin-top: 170px;
+}
+.articles-boxes {
+  max-width: 2000px;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.art-section {
+  max-width: 2000px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.art-first-section-box img {
+  width: 580px;
+  height: 550px;
+}
+.date {
+  writing-mode: vertical-rl;
+  transform: scale(-1);
+  width: 100px;
+  height: 550px;
+  background-color: #15263e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.date h1 {
+  color: #e93656;
+}
+.art-first-section-box {
+  display: flex;
+}
+.art-first-section-text {
+  width: 680px;
+  height: 550px;
+  background-color: #fafafa;
+}
+.art-first-section-text h5 {
+  padding-top: 20px;
+  padding-left: 15px;
+  color: #888888;
+  font-family: Muli;
+}
+.art-first-section-text h1 {
+  padding-top: 20px;
+  padding-left: 15px;
+  color: #161616;
+  font-family: Muli;
+}
+.art-first-section-text p {
+  padding-top: 10px;
+  padding-left: 15px;
+  color: #494949;
+  font-family: Glacial Indifference;
+}
+.art-first-section-text h4 {
+  padding-top: 20px;
+  padding-left: 15px;
+  color: #494949;
+  cursor: pointer;
+  font-family: Muli;
+}
+.art-first-section-text h4:hover {
+  color: #e93656;
+  transition: 0.5s;
+}
+.iconborder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  width: 95px;
+  height: 95px;
+  margin: 20px 10px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #ffffff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.articles-img {
+  object-fit: cover;
+}
+.iconborder:hover {
+  background-color: #15263e;
+  opacity: 0.8;
+}
+.articles-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+.articles-title h6 {
+  color: #2ed279;
+  font-size: 13;
+  font-family: Glacial Indifference;
+}
+.articles-title h1 {
+  color: #2e2e2e;
+  padding-top: 20px;
+  font-size: 70px;
+  font-family: Glacial Indifference;
+}
+.lasticons img {
+  width: 100px;
+  height: 70px;
+}
