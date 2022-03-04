@@ -102,3 +102,76 @@ const generateFilters = () => {
   });
 };
 generateFilters();
+
+// contact us
+
+var modal = document.getElementById("user-notification");
+
+const btn = document.querySelector(".sendbutton");
+
+var span = document.getElementsByClassName("modal-close")[0];
+
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+const form = document.getElementById("contact-info-form");
+const userName = document.querySelector("#name");
+const email = document.querySelector("#email");
+const website = document.querySelector("#website");
+const message = document.querySelector("#message");
+
+form.addEventListener("submit", e => {
+  e.preventDefault();
+  const userData = {
+    nameVal: userName.value,
+    emailVal: email.value,
+    websiteVal: website.value,
+    messageVal: message.value,
+  };
+
+  sendMessage(userData)
+    .then(result => {
+      if (!result || result.status !== "ok") {
+        alert("something went wrong on the server");
+      } else {
+        Object.keys(userData).forEach(idkey => {
+          const element = document.getElementById(idkey);
+          element.innerText = userData[idkey];
+        });
+        modal.style.display = "flex";
+      }
+    })
+    .catch(error => console.log(error));
+});
+function sendMessage(userData) {
+  return new Promise((resolve, reject) => {
+    const createUserRequest = fetch(
+      "http://api.kesho.me/v1/user-test/contact",
+      {
+        method: "POST",
+        body: JSON.stringify(userData),
+        headers: {
+          "Content-type": "application/json",
+        },
+      }
+    );
+    createUserRequest
+      .then(response => {
+        return response.json();
+      })
+      .then(data => {
+        resolve(data);
+      })
+      .catch(error => {
+        console.log(error);
+        reject(error);
+      });
+  });
+}
