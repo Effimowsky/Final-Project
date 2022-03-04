@@ -122,6 +122,9 @@ header {
   width: 334px;
   height: 149px;
 }
+.muliregular {
+  font-family: Muli;
+}
 .hire-me {
   font-size: 15px;
   background-color: #e93656;

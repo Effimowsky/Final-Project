@@ -1,0 +1,217 @@
+@media (max-width: 1024px);
+ {
+  .user-info-slider {
+    max-width: 1000px;
+    margin: 40px 50px;
+    width: 100%;
+    position: relative;
+  }
+  .d-flex {
+    max-width: 900px;
+    width: 100%;
+  }
+  .container {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .user-info {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .about-me {
+    max-width: 200px;
+    margin: 50px 0;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  .about-me p {
+    width: 100%px;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .about-me h1 {
+    font-size: 25px;
+  }
+  .my-photo {
+    width: 300px;
+  }
+  .skills-bar {
+    max-width: 100px;
+    margin-right: 90px;
+  }
+  .info {
+    position: absolute;
+    z-index: 4;
+    top: 15%;
+    left: 30%;
+    height: 100px;
+    font-size: 14px;
+  }
+  .info p {
+    max-width: 200px;
+    height: 100px;
+    font-size: 30px;
+  }
+  .satisfied-clients {
+    position: absolute;
+    z-index: 400;
+    top: 35%;
+    left: 65%;
+    width: 200px;
+    font-size: 15px;
+  }
+  .my-info {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .my-phone .my-adress .my-email {
+    max-width: 500px;
+    width: 100%;
+  }
+  .recomendations {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .recomendation-content {
+    max-width: 500px;
+    width: 100%;
+  }
+  .articles {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .articles-boxes {
+    max-width: 1000px;
+    width: 100%;
+  }
+  .iconborder img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px);
+ {
+  .user-info-slider {
+    max-width: 400px;
+    margin: 40px 50px;
+    width: 100%;
+    position: relative;
+  }
+  .header-slider {
+    max-width: 400px;
+    width: 100%;
+  }
+  .container {
+    max-width: 400px;
+    width: 100%;
+  }
+  .d-flex {
+    max-width: 400px;
+    width: 100%;
+  }
+  .container {
+    max-width: 400px;
+    width: 100%;
+  }
+  .user-info {
+    max-width: 400px;
+    width: 100%;
+  }
+  .about-me {
+    max-width: 100px;
+    margin: 50px 0;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  .muliregular {
+    width: 100%;
+    width: 300px;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .skills-bar {
+    max-width: 380px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: Glacial Indifference;
+  }
+  .about-me h1 {
+    font-size: 20px;
+  }
+  .about-me h2 {
+    font-size: 15px;
+  }
+  .my-photo img {
+    width: 150px;
+  }
+  #skills-bar-id {
+    max-width: 100px;
+  }
+  .info {
+    position: absolute;
+    z-index: 4;
+    font-size: 14px;
+    visibility: hidden;
+  }
+  .progress {
+    max-width: 100px;
+    margin-right: 90px;
+  }
+  .About-me {
+    visibility: hidden;
+  }
+  .satisfied-clients {
+    visibility: hidden;
+  }
+  .my-info {
+    max-width: 480px;
+    width: 100%;
+  }
+  .my-phone .my-adress .my-email {
+    width: 20px;
+  }
+  .recomendations {
+    max-width: 480px;
+    width: 100%;
+  }
+  .recomendation-content {
+    max-width: 300px;
+    width: 100%;
+  }
+  .articles {
+    max-width: 400px;
+    width: 100%;
+  }
+  .articles-boxes {
+    max-width: 400px;
+    width: 100%;
+  }
+  .iconborder img {
+    width: 300px;
+  }
+  .iconborder p {
+    width: 200px;
+  }
+  footer {
+    max-width: 400px;
+    width: 100%;
+  }
+  .footer-container {
+    max-width: 400px;
+    width: 100%;
+  }
+  .latest-projects-title {
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+  }
+}
